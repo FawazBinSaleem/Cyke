@@ -183,6 +183,8 @@ WorldMap --o Coordinate
 LinkedStack --* StackNode
 LinkedStack ..|> Stack
 
+```
+
 ## Flows of Interaction(s)
 
 ### Profiles
