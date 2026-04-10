@@ -5,7 +5,7 @@ This is the README for an Exercise Tracker called Cyke!
 A command-line exercise tracking application focused on cycling, supporting profile management, activity tracking, route finding, and persistence.
 
 
-## Running the program
+## Running the program in IntelliJ
 
 * The functional application can be started by running the `main` method in
   `Main.java`.
@@ -19,9 +19,20 @@ A command-line exercise tracking application focused on cycling, supporting prof
 - Social feed system (follow/unfollow users)
 - Route finding using stack-based pathfinding
 - JSON-based persistence (save/load application state)
-- Modular architecture (model, logic, UI layers)
 - Comprehensive automated test suite
 
+## Technologies & Concepts
+
+- Java
+- Maven
+- JSON-P (`javax.json`) for persistence
+- Design by contract (preconditions, postconditions, invariants)
+- Custom exception hierarchy for domain and logic validation
+- Builder pattern for safe object construction
+- Layered architecture (model, logic, UI)
+- Custom data structures (`LinkedStack`)
+- Depth-first search based route finding
+- Automated testing with a custom test harness
 
 
 ## Domain Model
