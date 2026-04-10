@@ -2,7 +2,7 @@
 
 This is the README for an Exercise Tracker called Cyke!
 
-AA command-line exercise tracking application focused on cycling, supporting profile management, activity tracking, route finding, and persistence.
+A command-line exercise tracking application focused on cycling, supporting profile management, activity tracking, route finding, and persistence.
 
 
 ## Running the program
