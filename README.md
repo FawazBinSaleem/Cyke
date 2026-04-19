@@ -12,6 +12,13 @@ A command-line exercise tracking application focused on cycling, supporting prof
 * All tests can be run by running the `main` method in `TestHarness.java`
   in the test folder.
 
+
+## Running the program in the Terminak
+- Install maven through the package manager
+- Change directories into the project folder
+- Compile the program with `mvn compile`
+- Run the functional application with `mvn exec:java -Dexec.mainClass="ca.umanitoba.cs.binsalef.Main"`
+
 ## Features
 
 - Profile management (create, select, rename)
