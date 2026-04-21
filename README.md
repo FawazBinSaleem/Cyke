@@ -13,11 +13,13 @@ A command-line exercise tracking application focused on cycling, supporting prof
   in the test folder.
 
 
-## Running the program in the Terminak
+## Running the program in the Terminal
 - Install maven through the package manager
 - Change directories into the project folder
 - Compile the program with `mvn compile`
 - Run the functional application with `mvn exec:java -Dexec.mainClass="ca.umanitoba.cs.binsalef.Main"`
+- Compile the test files with `mvn test-compile`
+- Run the Test Harness with `mvn exec:java -Dexec.mainClass="ca.umanitoba.cs.binsalef.tests.TestHarness" -Dexec.classpathScope=test`
 
 ## Features
 
